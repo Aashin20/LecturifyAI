@@ -1,28 +1,16 @@
-# luminals
+# Lecturify AI
 
-This template should help get you started developing with Vue 3 in Vite.
+## The problem
+Students miss lectures all the time. Whether due to ODs, sick leaves, or transportation delays, it inevitably ends up in the student having to run behind other peers for notes. This can be inefficient and time-consuming. Inconsistent note-taking styles, incomplete information, and varying levels of understanding among peers can lead to gaps in learning. As a result, students often struggle to catch up, which can affect their performance in assignments and exams.
 
-## Recommended IDE Setup
+## What we propose
+Lecturify AI can provide organized PDF notes of audio lectures in various levels of complexity without skimping out on any details. It uses cutting edge APIs & LLMs to craft the perfect lecture notes that can easily be referred to through a free mobile application. The notes are generated in real time during classroom lectures. Interactive learning material, like Quizzes, Flashcards, etc, are also created automaticallly based on the material.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+#### Building for production
 
 ```sh
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
 
 ```sh
 npm run build
